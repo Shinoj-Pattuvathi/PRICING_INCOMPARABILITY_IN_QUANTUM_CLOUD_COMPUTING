@@ -1,0 +1,28 @@
+[
+  {
+    "provider": "azure_ionq",
+    "azure_target": "ionq.simulator",
+    "circuit": "fair_w3_d8",
+    "width": 3,
+    "logical_depth": 65,
+    "shots": 1000,
+    "error_mitigation": false,
+    "pre_quote_usd": null,
+    "pre_quote_note": "unavailable: 'IonQSimulatorQirBackend' object has no attribute 'estimate_cost'",
+    "transpiled_depth": 65,
+    "depth_inflation": 1.0,
+    "transpiled_gates": {
+      "1q": 144,
+      "2q": 16
+    },
+    "wall_seconds": 21.372,
+    "success_prob": 1.0,
+    "counts": {
+      "000": 1000
+    },
+    "azure_cost_estimate": "{'currencyCode': 'GBP', 'events': [{'dimensionId': 'aqt', 'dimensionName': 'Azure Quantum Token ', 'measureUnit': 'per aqt', 'amountBilled': 0.0, 'amountConsumed': 0.0, 'unitPrice': 0.78201}], 'estimatedTotal': 0.0}",
+    "azure_execution_time": "2026-08-16 12:59:52.542000+00:00",
+    "cost_formula_usd": 47.28,
+    "qpu_seconds": null
+  }
+]

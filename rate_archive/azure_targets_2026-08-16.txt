@@ -1,0 +1,7 @@
+  ionq.simulator
+  ionq.qpu.aria-1
+  ionq.qpu.forte-1
+  ionq.qpu.forte-enterprise-1
+  quantinuum.sim.h2-1sc
+  quantinuum.sim.h2-1e
+  rigetti.sim.qvm

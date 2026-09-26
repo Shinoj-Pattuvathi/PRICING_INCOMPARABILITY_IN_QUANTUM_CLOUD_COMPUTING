@@ -1,0 +1,56 @@
+# Azure Quantum pre-submission quotes (estimate-only), 2026-08-16, shots=1000, grid w=3,8,12 d=8,16,32
+
+=== ionq.qpu.aria-1 ===
+fair_w3_d8     pre-quote: None (no pre-quote available: 'IonQAriaQirBackend' object has no attribute 'estimate_cost')
+fair_w3_d16    pre-quote: None (no pre-quote available: 'IonQAriaQirBackend' object has no attribute 'estimate_cost')
+fair_w3_d32    pre-quote: None (no pre-quote available: 'IonQAriaQirBackend' object has no attribute 'estimate_cost')
+fair_w8_d8     pre-quote: None (no pre-quote available: 'IonQAriaQirBackend' object has no attribute 'estimate_cost')
+fair_w8_d16    pre-quote: None (no pre-quote available: 'IonQAriaQirBackend' object has no attribute 'estimate_cost')
+fair_w8_d32    pre-quote: None (no pre-quote available: 'IonQAriaQirBackend' object has no attribute 'estimate_cost')
+fair_w12_d8    pre-quote: None (no pre-quote available: 'IonQAriaQirBackend' object has no attribute 'estimate_cost')
+fair_w12_d16   pre-quote: None (no pre-quote available: 'IonQAriaQirBackend' object has no attribute 'estimate_cost')
+fair_w12_d32   pre-quote: None (no pre-quote available: 'IonQAriaQirBackend' object has no attribute 'estimate_cost')
+
+=== ionq.qpu.forte-1 ===
+fair_w3_d8     pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w3_d16    pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w3_d32    pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w8_d8     pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w8_d16    pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w8_d32    pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w12_d8    pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w12_d16   pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w12_d32   pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+
+=== ionq.qpu.forte-enterprise-1 ===
+fair_w3_d8     pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w3_d16    pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w3_d32    pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w8_d8     pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w8_d16    pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w8_d32    pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w12_d8    pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w12_d16   pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+fair_w12_d32   pre-quote: None (no pre-quote available: 'IonQForteQirBackend' object has no attribute 'estimate_cost')
+
+=== SDK knowability finding ===
+azure-quantum 3.11.0: estimate_cost API REMOVED (no method on qiskit backend,
+provider, or Workspace target). No programmatic ex-ante quote exists on Azure
+as of 2026-08-16. Quotes below are ANALYTIC (AQT formula from transpiled gate
+counts), not platform quotes. Rigetti QPU target absent from workspace entirely.
+
+=== Analytic AQT estimates, IonQ QPUs (identical for aria-1/forte-1/forte-ent-1;
+meter is per-gate-shot, device-independent), shots=1000, mitigation OFF ===
+
+fair_w3_d8   1q= 144 2q= 16  gate-cost=$   47.28  billed=$   47.28
+fair_w3_d16  1q= 288 2q= 32  gate-cost=$   94.56  billed=$   94.56
+fair_w3_d32  1q= 576 2q= 64  gate-cost=$  189.12  billed=$  189.12
+fair_w8_d8   1q= 384 2q= 56  gate-cost=$  139.08  billed=$  139.08
+fair_w8_d16  1q= 768 2q=112  gate-cost=$  278.16  billed=$  278.16
+fair_w8_d32  1q=1536 2q=224  gate-cost=$  556.32  billed=$  556.32
+fair_w12_d8   1q= 576 2q= 88  gate-cost=$  212.52  billed=$  212.52
+fair_w12_d16  1q=1152 2q=176  gate-cost=$  425.04  billed=$  425.04
+fair_w12_d32  1q=2304 2q=352  gate-cost=$  850.08  billed=$  850.08
+
+grid total (mit-off): $2792.16
+mitigation-ON floor would be $97.50/job wherever gate-cost < $97.50

@@ -1,0 +1,28 @@
+[
+  {
+    "provider": "azure_rigetti",
+    "azure_target": "rigetti.sim.qvm",
+    "circuit": "fair_w3_d8",
+    "width": 3,
+    "logical_depth": 65,
+    "shots": 1000,
+    "error_mitigation": false,
+    "pre_quote_usd": null,
+    "pre_quote_note": "unavailable: 'RigettiSimulatorBackend' object has no attribute 'estimate_cost'",
+    "transpiled_depth": 65,
+    "depth_inflation": 1.0,
+    "transpiled_gates": {
+      "1q": 144,
+      "2q": 16
+    },
+    "wall_seconds": 21.225,
+    "success_prob": 1.0,
+    "counts": {
+      "000": 1000
+    },
+    "azure_cost_estimate": "{'currencyCode': 'GBP', 'events': [{'dimensionId': 'qpu_time_centiseconds', 'dimensionName': 'QPU Execution Time', 'measureUnit': '10ms (rounded up)', 'amountBilled': 0.0, 'amountConsumed': 0.0, 'unitPrice': 0.0}], 'estimatedTotal': 0.0}",
+    "azure_execution_time": "2026-08-16 13:00:21.251135+00:00",
+    "cost_formula_usd": null,
+    "qpu_seconds": null
+  }
+]

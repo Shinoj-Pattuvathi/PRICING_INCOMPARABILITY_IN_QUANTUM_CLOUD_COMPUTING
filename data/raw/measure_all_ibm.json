@@ -1,0 +1,27 @@
+[
+  {
+    "circuit": "fair_w3_d2",
+    "width": 3,
+    "logical_depth": 17,
+    "gates_1q": 36,
+    "gates_2q": 4,
+    "transpiled_depth": 25,
+    "transpiled_gates": {
+      "1q": 60,
+      "2q": 4
+    },
+    "depth_inflation": 1.471,
+    "shots": 100,
+    "success_prob": 1.0,
+    "error_per_layer": 0.0,
+    "qpu_seconds": 2.0,
+    "shots_per_second": 50.0,
+    "cost_time_usd": 3.2,
+    "cost_volume_usd": 8.3,
+    "cost_gates_usd": 1.71,
+    "cps_time": 0.032,
+    "cps_volume": 0.083,
+    "cps_gates": 0.0171,
+    "provider": "ibm"
+  }
+]

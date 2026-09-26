@@ -1,0 +1,37 @@
+# Pricing rates (USD) -- verify against provider price pages before running;
+# these reflect August 2026 published rates.
+#   IBM:    https://quantum.cloud.ibm.com/docs/en/guides/plans-overview
+#   Braket: https://aws.amazon.com/braket/pricing/
+#   IonQ:   https://ionq.com/quantum-cloud (gate-based direct pricing)
+rates:
+  ibm:
+    usd_per_qpu_second: 1.60        # $96/min pay-as-you-go
+  braket_ionq_forte:
+    usd_per_task: 0.30
+    usd_per_shot: 0.08
+  braket_rigetti:                   # Cepheus-1-108Q (Ankaa-3 retired)
+    usd_per_task: 0.30
+    usd_per_shot: 0.000425          # verified 2026-08-09 aws.amazon.com/braket/pricing
+  braket_iqm_garnet:                # IQM Garnet, eu-north-1, weekdays only
+    usd_per_task: 0.30
+    usd_per_shot: 0.00145           # verified 2026-08-09 aws.amazon.com/braket/pricing
+  braket_iqm_emerald:               # IQM Emerald, eu-north-1, weekdays only
+    usd_per_task: 0.30
+    usd_per_shot: 0.0016            # verified 2026-08-09 aws.amazon.com/braket/pricing
+  ionq_direct:
+    usd_per_1q_gate_shot: 0.00022
+    usd_per_2q_gate_shot: 0.000975
+    usd_min_per_job: 1.00
+
+shots: 1000
+
+# Workload grid: each circuit isolates a different region of the
+# (width, depth, connectivity) space so the exchange-rate instability shows.
+workloads:
+  mirror:            # [width, depth] pairs -- width x depth interaction
+    - [4, 4]
+    - [4, 16]
+    - [8, 4]
+    - [8, 16]
+  ghz_widths: [4, 8, 12]   # width + coherence stress
+  conn_widths: [6, 10]     # connectivity stress (SWAP overhead on heavy-hex)

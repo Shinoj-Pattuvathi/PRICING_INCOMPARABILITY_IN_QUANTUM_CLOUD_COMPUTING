@@ -1,0 +1,247 @@
+{
+  "generated_from": "ledger.csv",
+  "primary_record_unmodified": true,
+  "gbp_usd_rate": 1.28,
+  "metered_actual_total_usd": 327.08,
+  "metered_actual_by_meter": {
+    "gate-token (AQT)": 194.18,
+    "time (QPU seconds)": 0.0,
+    "volume (task+shots)": 132.9
+  },
+  "committed_estimate_total_usd": 301.75,
+  "net_committed_after_adjustments_usd": 0.0,
+  "invoice_vs_ledger_discrepancies": [
+    {
+      "phase": "4",
+      "provider": "azure_ionq",
+      "invoice": 168.3636,
+      "ledger_status": 168.36,
+      "delta": 0.0036,
+      "material": false
+    },
+    {
+      "phase": "6",
+      "provider": "azure_ionq",
+      "invoice": 25.8151,
+      "ledger_status": 25.81,
+      "delta": 0.0051,
+      "material": false
+    }
+  ],
+  "cash_total_usd": 0.0,
+  "cash_note": "all metered consumption absorbed by Azure and AWS promotional credit pools; see ledger credits_covered_adjustment rows",
+  "rows": [
+    {
+      "phase": "1",
+      "provider": "ibm",
+      "channel": "ibm",
+      "meter": "time (QPU seconds)",
+      "barrier": "post-barrier",
+      "records": 24,
+      "tasks_billed": 24,
+      "shots": 36000,
+      "est_usd": 0.0,
+      "adjustments_usd": 0.0,
+      "net_committed_usd": 0.0,
+      "actual_metered_usd": 0.0,
+      "actual_source": "free_tier",
+      "cross_check_usd": null,
+      "cross_check_delta_usd": null,
+      "cash_usd": 0.0,
+      "est_note": "",
+      "detail": {
+        "note": "IBM Open Plan; no invoice. Time-meter prices elsewhere in the analysis are counterfactual."
+      }
+    },
+    {
+      "phase": "1",
+      "provider": "ibm",
+      "channel": "ibm",
+      "meter": "time (QPU seconds)",
+      "barrier": "pre-barrier (quarantined)",
+      "records": 22,
+      "tasks_billed": 22,
+      "shots": 34000,
+      "est_usd": 0.0,
+      "adjustments_usd": 0.0,
+      "net_committed_usd": 0.0,
+      "actual_metered_usd": 0.0,
+      "actual_source": "free_tier",
+      "cross_check_usd": null,
+      "cross_check_delta_usd": null,
+      "cash_usd": 0.0,
+      "est_note": "estimate carried on the 1/ibm row above",
+      "detail": {
+        "note": "IBM Open Plan; no invoice. Time-meter prices elsewhere in the analysis are counterfactual."
+      }
+    },
+    {
+      "phase": "2",
+      "provider": "braket_rigetti",
+      "channel": "braket",
+      "meter": "volume (task+shots)",
+      "barrier": "post-barrier",
+      "records": 20,
+      "tasks_billed": 20,
+      "shots": 20000,
+      "est_usd": 30.0,
+      "adjustments_usd": 0.0,
+      "net_committed_usd": 30.0,
+      "actual_metered_usd": 14.5,
+      "actual_source": "recomputed",
+      "cross_check_usd": null,
+      "cross_check_delta_usd": null,
+      "cash_usd": 0.0,
+      "est_note": "",
+      "detail": {
+        "tariff": "0.3/task + 0.000425/shot",
+        "exact_ex_ante": true
+      }
+    },
+    {
+      "phase": "2",
+      "provider": "braket_rigetti",
+      "channel": "braket",
+      "meter": "volume (task+shots)",
+      "barrier": "pre-barrier (quarantined)",
+      "records": 20,
+      "tasks_billed": 20,
+      "shots": 20000,
+      "est_usd": 0.0,
+      "adjustments_usd": 0.0,
+      "net_committed_usd": 0.0,
+      "actual_metered_usd": 14.5,
+      "actual_source": "recomputed",
+      "cross_check_usd": null,
+      "cross_check_delta_usd": null,
+      "cash_usd": 0.0,
+      "est_note": "estimate carried on the 2/braket_rigetti row above",
+      "detail": {
+        "tariff": "0.3/task + 0.000425/shot",
+        "exact_ex_ante": true
+      }
+    },
+    {
+      "phase": "3",
+      "provider": "braket_iqm_garnet",
+      "channel": "braket",
+      "meter": "volume (task+shots)",
+      "barrier": "post-barrier",
+      "records": 6,
+      "tasks_billed": 6,
+      "shots": 6000,
+      "est_usd": 12.8331,
+      "adjustments_usd": -1.83,
+      "net_committed_usd": 11.0031,
+      "actual_metered_usd": 10.5,
+      "actual_source": "recomputed",
+      "cross_check_usd": null,
+      "cross_check_delta_usd": null,
+      "cash_usd": 0.0,
+      "est_note": "",
+      "detail": {
+        "tariff": "0.3/task + 0.00145/shot",
+        "exact_ex_ante": true
+      }
+    },
+    {
+      "phase": "4",
+      "provider": "azure_ionq",
+      "channel": "azure",
+      "meter": "gate-token (AQT)",
+      "barrier": "mixed",
+      "records": 1,
+      "tasks_billed": 1,
+      "shots": 1000,
+      "est_usd": 47.28,
+      "adjustments_usd": -47.28,
+      "net_committed_usd": 0.0,
+      "actual_metered_usd": 168.3636,
+      "actual_source": "invoice_payload",
+      "cross_check_usd": 168.36,
+      "cross_check_delta_usd": 0.0036,
+      "cash_usd": 0.0,
+      "est_note": "",
+      "detail": {
+        "amount_billed_tokens": 168.2,
+        "unit_price": 0.78201,
+        "currency": "GBP",
+        "native_total": 131.5341,
+        "gbp_usd_rate": 1.28,
+        "usd": 168.3636
+      }
+    },
+    {
+      "phase": "5",
+      "provider": "braket_ionq_forte",
+      "channel": "braket",
+      "meter": "volume (task+shots)",
+      "barrier": "post-barrier",
+      "records": 2,
+      "tasks_billed": 2,
+      "shots": 1160,
+      "est_usd": 186.8,
+      "adjustments_usd": -186.8,
+      "net_committed_usd": 0.0,
+      "actual_metered_usd": 93.4,
+      "actual_source": "recomputed",
+      "cross_check_usd": null,
+      "cross_check_delta_usd": null,
+      "cash_usd": 0.0,
+      "est_note": "",
+      "detail": {
+        "tariff": "0.3/task + 0.08/shot",
+        "exact_ex_ante": true
+      }
+    },
+    {
+      "phase": "6",
+      "provider": "azure_ionq",
+      "channel": "azure",
+      "meter": "gate-token (AQT)",
+      "barrier": "mixed",
+      "records": 1,
+      "tasks_billed": 1,
+      "shots": 50,
+      "est_usd": 24.84,
+      "adjustments_usd": -24.84,
+      "net_committed_usd": 0.0,
+      "actual_metered_usd": 25.8151,
+      "actual_source": "invoice_payload",
+      "cross_check_usd": 25.81,
+      "cross_check_delta_usd": 0.0051,
+      "cash_usd": 0.0,
+      "est_note": "",
+      "detail": {
+        "amount_billed_tokens": 25.79,
+        "unit_price": 0.78201,
+        "currency": "GBP",
+        "native_total": 20.168,
+        "gbp_usd_rate": 1.28,
+        "usd": 25.8151
+      }
+    },
+    {
+      "phase": "0",
+      "provider": "braket_all",
+      "channel": "pooled",
+      "meter": "n/a",
+      "barrier": "n/a",
+      "records": 0,
+      "tasks_billed": 0,
+      "shots": 0,
+      "est_usd": 0.0,
+      "adjustments_usd": -41.0,
+      "net_committed_usd": -41.0,
+      "actual_metered_usd": null,
+      "actual_source": "no_execution_records",
+      "cross_check_usd": null,
+      "cross_check_delta_usd": null,
+      "cash_usd": 0.0,
+      "est_note": "pooled ledger row; metered cost attributed to the phase rows above",
+      "detail": {
+        "note": "adjustment-only ledger key"
+      }
+    }
+  ]
+}

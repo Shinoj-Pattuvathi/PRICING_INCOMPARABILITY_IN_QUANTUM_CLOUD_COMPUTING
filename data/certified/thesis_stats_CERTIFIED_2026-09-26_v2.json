@@ -1,0 +1,1713 @@
+{
+  "certified_date": "2026-09-26",
+  "gbp_usd_rate": 1.28,
+  "cross_checks": {
+    "gate_volume_drift": 233.4,
+    "azure_bill_usd": 168.36,
+    "ibm_gamma_ols": 0.006669
+  },
+  "warnings": [
+    "S2/braket_rigetti: WARNING: gamma sign/significance UNSTABLE across fit variants -- no verdict; do not cite this fit"
+  ],
+  "stats": {
+    "S1_descriptives": [
+      {
+        "provider": "azure_ionq",
+        "circuit": "fair_w3_d8",
+        "w": 3,
+        "d": 8,
+        "rep": 1,
+        "F": 0.997997997997998,
+        "ci": [
+          0.9927,
+          0.9995
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "azure_ionq",
+        "circuit": "fair_w3_d8",
+        "w": 3,
+        "d": 8,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9286,
+          1.0
+        ],
+        "shots": 50,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w3_d8",
+        "w": 3,
+        "d": 8,
+        "rep": 1,
+        "F": 0.459,
+        "ci": [
+          0.4283,
+          0.49
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w3_d16",
+        "w": 3,
+        "d": 16,
+        "rep": 1,
+        "F": 0.266,
+        "ci": [
+          0.2395,
+          0.2942
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w3_d32",
+        "w": 3,
+        "d": 32,
+        "rep": 1,
+        "F": 0.158,
+        "ci": [
+          0.1367,
+          0.1819
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w8_d8",
+        "w": 8,
+        "d": 8,
+        "rep": 1,
+        "F": 0.058,
+        "ci": [
+          0.0451,
+          0.0742
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w8_d16",
+        "w": 8,
+        "d": 16,
+        "rep": 1,
+        "F": 0.012,
+        "ci": [
+          0.0069,
+          0.0209
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w8_d32",
+        "w": 8,
+        "d": 32,
+        "rep": 1,
+        "F": 0.003,
+        "ci": [
+          0.001,
+          0.0088
+        ],
+        "shots": 1000,
+        "above_floor": false
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w12_d8",
+        "w": 12,
+        "d": 8,
+        "rep": 1,
+        "F": 0.001,
+        "ci": [
+          0.0002,
+          0.0056
+        ],
+        "shots": 1000,
+        "above_floor": false
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w12_d16",
+        "w": 12,
+        "d": 16,
+        "rep": 1,
+        "F": 0.0,
+        "ci": [
+          0.0,
+          0.0038
+        ],
+        "shots": 1000,
+        "above_floor": false
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w12_d32",
+        "w": 12,
+        "d": 32,
+        "rep": 1,
+        "F": 0.0,
+        "ci": [
+          0.0,
+          0.0038
+        ],
+        "shots": 1000,
+        "above_floor": false
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "ghz_w8",
+        "w": 8,
+        "d": 0,
+        "rep": 1,
+        "F": 0.2,
+        "ci": [
+          0.1764,
+          0.2259
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w3_d8",
+        "w": 3,
+        "d": 8,
+        "rep": 2,
+        "F": 0.43,
+        "ci": [
+          0.3996,
+          0.4609
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w3_d16",
+        "w": 3,
+        "d": 16,
+        "rep": 2,
+        "F": 0.285,
+        "ci": [
+          0.2579,
+          0.3138
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w3_d32",
+        "w": 3,
+        "d": 32,
+        "rep": 2,
+        "F": 0.164,
+        "ci": [
+          0.1423,
+          0.1882
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w8_d8",
+        "w": 8,
+        "d": 8,
+        "rep": 2,
+        "F": 0.071,
+        "ci": [
+          0.0567,
+          0.0886
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w8_d16",
+        "w": 8,
+        "d": 16,
+        "rep": 2,
+        "F": 0.005,
+        "ci": [
+          0.0021,
+          0.0117
+        ],
+        "shots": 1000,
+        "above_floor": false
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w8_d32",
+        "w": 8,
+        "d": 32,
+        "rep": 2,
+        "F": 0.007,
+        "ci": [
+          0.0034,
+          0.0144
+        ],
+        "shots": 1000,
+        "above_floor": false
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w12_d8",
+        "w": 12,
+        "d": 8,
+        "rep": 2,
+        "F": 0.005,
+        "ci": [
+          0.0021,
+          0.0117
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w12_d16",
+        "w": 12,
+        "d": 16,
+        "rep": 2,
+        "F": 0.0,
+        "ci": [
+          0.0,
+          0.0038
+        ],
+        "shots": 1000,
+        "above_floor": false
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w12_d32",
+        "w": 12,
+        "d": 32,
+        "rep": 2,
+        "F": 0.0,
+        "ci": [
+          0.0,
+          0.0038
+        ],
+        "shots": 1000,
+        "above_floor": false
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "ghz_w8",
+        "w": 8,
+        "d": 0,
+        "rep": 2,
+        "F": 0.208,
+        "ci": [
+          0.184,
+          0.2343
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_ionq_forte",
+        "circuit": "fair_w8_d16",
+        "w": 8,
+        "d": 16,
+        "rep": 1,
+        "F": 0.3913793103448276,
+        "ci": [
+          0.3525,
+          0.4317
+        ],
+        "shots": 580,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_ionq_forte",
+        "circuit": "fair_w8_d32",
+        "w": 8,
+        "d": 32,
+        "rep": 1,
+        "F": 0.15517241379310345,
+        "ci": [
+          0.128,
+          0.1869
+        ],
+        "shots": 580,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w3_d8",
+        "w": 3,
+        "d": 8,
+        "rep": 1,
+        "F": 0.838,
+        "ci": [
+          0.8139,
+          0.8595
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w3_d16",
+        "w": 3,
+        "d": 16,
+        "rep": 1,
+        "F": 0.78,
+        "ci": [
+          0.7533,
+          0.8046
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w3_d32",
+        "w": 3,
+        "d": 32,
+        "rep": 1,
+        "F": 0.805,
+        "ci": [
+          0.7793,
+          0.8284
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w8_d8",
+        "w": 8,
+        "d": 8,
+        "rep": 1,
+        "F": 0.633,
+        "ci": [
+          0.6027,
+          0.6623
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w8_d16",
+        "w": 8,
+        "d": 16,
+        "rep": 1,
+        "F": 0.366,
+        "ci": [
+          0.3367,
+          0.3963
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w8_d32",
+        "w": 8,
+        "d": 32,
+        "rep": 1,
+        "F": 0.23,
+        "ci": [
+          0.2172,
+          0.2433
+        ],
+        "shots": 4000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w12_d8",
+        "w": 12,
+        "d": 8,
+        "rep": 1,
+        "F": 0.452,
+        "ci": [
+          0.4214,
+          0.483
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w12_d16",
+        "w": 12,
+        "d": 16,
+        "rep": 1,
+        "F": 0.25,
+        "ci": [
+          0.2242,
+          0.2778
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w12_d32",
+        "w": 12,
+        "d": 32,
+        "rep": 1,
+        "F": 0.0955,
+        "ci": [
+          0.0868,
+          0.105
+        ],
+        "shots": 4000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "ghz_w3",
+        "w": 3,
+        "d": 0,
+        "rep": 1,
+        "F": 0.965,
+        "ci": [
+          0.9517,
+          0.9747
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "ghz_w8",
+        "w": 8,
+        "d": 0,
+        "rep": 1,
+        "F": 0.921,
+        "ci": [
+          0.9026,
+          0.9362
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "ghz_w12",
+        "w": 12,
+        "d": 0,
+        "rep": 1,
+        "F": 0.815,
+        "ci": [
+          0.7897,
+          0.8378
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w3_d8",
+        "w": 3,
+        "d": 8,
+        "rep": 2,
+        "F": 0.911,
+        "ci": [
+          0.8917,
+          0.9271
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w3_d16",
+        "w": 3,
+        "d": 16,
+        "rep": 2,
+        "F": 0.813,
+        "ci": [
+          0.7877,
+          0.836
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w3_d32",
+        "w": 3,
+        "d": 32,
+        "rep": 2,
+        "F": 0.797,
+        "ci": [
+          0.771,
+          0.8208
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w8_d8",
+        "w": 8,
+        "d": 8,
+        "rep": 2,
+        "F": 0.63,
+        "ci": [
+          0.5996,
+          0.6594
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w8_d16",
+        "w": 8,
+        "d": 16,
+        "rep": 2,
+        "F": 0.454,
+        "ci": [
+          0.4234,
+          0.485
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w8_d32",
+        "w": 8,
+        "d": 32,
+        "rep": 2,
+        "F": 0.2285,
+        "ci": [
+          0.2158,
+          0.2418
+        ],
+        "shots": 4000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w12_d8",
+        "w": 12,
+        "d": 8,
+        "rep": 2,
+        "F": 0.523,
+        "ci": [
+          0.492,
+          0.5538
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w12_d16",
+        "w": 12,
+        "d": 16,
+        "rep": 2,
+        "F": 0.286,
+        "ci": [
+          0.2589,
+          0.3148
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w12_d32",
+        "w": 12,
+        "d": 32,
+        "rep": 2,
+        "F": 0.1175,
+        "ci": [
+          0.1079,
+          0.1278
+        ],
+        "shots": 4000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "ghz_w3",
+        "w": 3,
+        "d": 0,
+        "rep": 2,
+        "F": 0.977,
+        "ci": [
+          0.9657,
+          0.9846
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "ghz_w8",
+        "w": 8,
+        "d": 0,
+        "rep": 2,
+        "F": 0.915,
+        "ci": [
+          0.8961,
+          0.9307
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "ghz_w12",
+        "w": 12,
+        "d": 0,
+        "rep": 2,
+        "F": 0.811,
+        "ci": [
+          0.7856,
+          0.8341
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_iqm_garnet",
+        "circuit": "fair_w8_d8",
+        "w": 8,
+        "d": 8,
+        "rep": 1,
+        "F": 0.368,
+        "ci": [
+          0.3387,
+          0.3983
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_iqm_garnet",
+        "circuit": "fair_w8_d16",
+        "w": 8,
+        "d": 16,
+        "rep": 1,
+        "F": 0.11,
+        "ci": [
+          0.0921,
+          0.1309
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_iqm_garnet",
+        "circuit": "fair_w8_d32",
+        "w": 8,
+        "d": 32,
+        "rep": 1,
+        "F": 0.014,
+        "ci": [
+          0.0084,
+          0.0234
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_iqm_garnet",
+        "circuit": "fair_w8_d8",
+        "w": 8,
+        "d": 8,
+        "rep": 2,
+        "F": 0.335,
+        "ci": [
+          0.3064,
+          0.3648
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_iqm_garnet",
+        "circuit": "fair_w8_d16",
+        "w": 8,
+        "d": 16,
+        "rep": 2,
+        "F": 0.111,
+        "ci": [
+          0.093,
+          0.132
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_iqm_garnet",
+        "circuit": "fair_w8_d32",
+        "w": 8,
+        "d": 32,
+        "rep": 2,
+        "F": 0.013,
+        "ci": [
+          0.0076,
+          0.0221
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "local",
+        "circuit": "fair_w3_d2",
+        "w": 3,
+        "d": 2,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "local",
+        "circuit": "fair_w3_d8",
+        "w": 3,
+        "d": 8,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "local",
+        "circuit": "fair_w3_d24",
+        "w": 3,
+        "d": 24,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "local",
+        "circuit": "fair_w5_d2",
+        "w": 5,
+        "d": 2,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "local",
+        "circuit": "fair_w5_d8",
+        "w": 5,
+        "d": 8,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "local",
+        "circuit": "fair_w5_d24",
+        "w": 5,
+        "d": 24,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "local",
+        "circuit": "fair_w8_d2",
+        "w": 8,
+        "d": 2,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "local",
+        "circuit": "fair_w8_d8",
+        "w": 8,
+        "d": 8,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "local",
+        "circuit": "fair_w8_d24",
+        "w": 8,
+        "d": 24,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_rigetti",
+        "circuit": "fair_w3_d2",
+        "w": 3,
+        "d": 2,
+        "rep": 1,
+        "F": 0.92,
+        "ci": [
+          0.85,
+          0.9589
+        ],
+        "shots": 100,
+        "above_floor": true
+      },
+      {
+        "provider": "azure_ionq",
+        "circuit": "fair_w3_d8",
+        "w": 3,
+        "d": 8,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_iqm_garnet",
+        "circuit": "fair_w3_d2",
+        "w": 3,
+        "d": 2,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.963,
+          1.0
+        ],
+        "shots": 100,
+        "above_floor": true
+      },
+      {
+        "provider": "braket_SV1_SIMULATOR_test",
+        "circuit": "fair_w3_d2",
+        "w": 3,
+        "d": 2,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.963,
+          1.0
+        ],
+        "shots": 100,
+        "above_floor": true
+      },
+      {
+        "provider": "azure_rigetti",
+        "circuit": "fair_w3_d8",
+        "w": 3,
+        "d": 8,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.9962,
+          1.0
+        ],
+        "shots": 1000,
+        "above_floor": true
+      },
+      {
+        "provider": "ibm",
+        "circuit": "fair_w3_d2",
+        "w": 3,
+        "d": 2,
+        "rep": 1,
+        "F": 1.0,
+        "ci": [
+          0.963,
+          1.0
+        ],
+        "shots": 100,
+        "above_floor": true
+      }
+    ],
+    "S2_decay_H3": {
+      "braket_ionq_forte": {
+        "n": 2,
+        "n_dropped_floor": 0,
+        "dropped": [],
+        "role": "anchor data",
+        "effective_depth_decay_k": 0.05782,
+        "verdict": "decay replication only (single width column: gamma unidentifiable); depth decay confirmed"
+      },
+      "braket_iqm_garnet": {
+        "n": 6,
+        "n_dropped_floor": 0,
+        "dropped": [],
+        "role": "replication support",
+        "effective_depth_decay_k": 0.1438,
+        "verdict": "decay replication only (single width column: gamma unidentifiable); depth decay confirmed"
+      },
+      "braket_rigetti": {
+        "n": 10,
+        "n_dropped_floor": 8,
+        "dropped": [
+          "fair_w8_d32#r1",
+          "fair_w12_d8#r1",
+          "fair_w12_d16#r1",
+          "fair_w12_d32#r1",
+          "fair_w8_d16#r2",
+          "fair_w8_d32#r2",
+          "fair_w12_d16#r2",
+          "fair_w12_d32#r2"
+        ],
+        "role": "replication support",
+        "unconstrained": {
+          "A": 0.9191,
+          "alpha": 0.12822,
+          "beta": -0.05076,
+          "gamma": 0.032225,
+          "ci": {
+            "A": [
+              -1.106452,
+              2.944564
+            ],
+            "alpha": [
+              -0.604217,
+              0.860658
+            ],
+            "beta": [
+              -0.319008,
+              0.217494
+            ],
+            "gamma": [
+              -0.057096,
+              0.121546
+            ]
+          },
+          "sse_full": 0.00282,
+          "sse_null": 0.00364,
+          "LRT": 2.532,
+          "p_gamma": 0.111593
+        },
+        "bounded": {
+          "A": 1.05,
+          "alpha": 0.19119,
+          "beta": 0.0,
+          "gamma": 0.01457,
+          "ci": {
+            "A": [
+              -0.185515,
+              2.285515
+            ],
+            "alpha": [
+              -0.192621,
+              0.575008
+            ],
+            "beta": [
+              -0.13277,
+              0.13277
+            ],
+            "gamma": [
+              -0.029302,
+              0.058442
+            ]
+          },
+          "sse_full": 0.00558,
+          "sse_null": 0.01978,
+          "LRT": 12.66,
+          "p_gamma": 0.000374
+        },
+        "variants_stable": false,
+        "verdict": "WARNING: gamma sign/significance UNSTABLE across fit variants -- no verdict; do not cite this fit"
+      },
+      "ibm": {
+        "n": 18,
+        "n_dropped_floor": 0,
+        "dropped": [],
+        "role": "primary H3 test",
+        "unconstrained": {
+          "A": 0.8738,
+          "alpha": 3e-05,
+          "beta": -0.0203,
+          "gamma": 0.007851,
+          "ci": {
+            "A": [
+              0.775138,
+              0.972449
+            ],
+            "alpha": [
+              -0.019732,
+              0.019799
+            ],
+            "beta": [
+              -0.0268,
+              -0.013803
+            ],
+            "gamma": [
+              0.006392,
+              0.00931
+            ]
+          },
+          "sse_full": 0.01773,
+          "sse_null": 0.21166,
+          "LRT": 44.635,
+          "p_gamma": 0.0
+        },
+        "bounded": {
+          "A": 1.05,
+          "alpha": 0.03497,
+          "beta": 0.0,
+          "gamma": 0.004059,
+          "ci": {
+            "A": [
+              0.784597,
+              1.315403
+            ],
+            "alpha": [
+              -0.005951,
+              0.075897
+            ],
+            "beta": [
+              -0.014429,
+              0.014429
+            ],
+            "gamma": [
+              0.001363,
+              0.006755
+            ]
+          },
+          "sse_full": 0.08572,
+          "sse_null": 0.32506,
+          "LRT": 23.993,
+          "p_gamma": 1e-06
+        },
+        "variants_stable": true,
+        "verdict": "H3 SUPPORTED (gamma != 0, stable across variants)",
+        "loo_gamma": {
+          "per_dropped_circuit": {
+            "fair_w12_d16": 0.003976,
+            "fair_w12_d32": 0.003809,
+            "fair_w12_d8": 0.00389,
+            "fair_w3_d16": 0.004077,
+            "fair_w3_d32": 0.005508,
+            "fair_w3_d8": 0.004018,
+            "fair_w8_d16": 0.003955,
+            "fair_w8_d32": 0.003563,
+            "fair_w8_d8": 0.003936
+          },
+          "range": [
+            0.003563,
+            0.005508
+          ],
+          "sign_stable": true
+        }
+      }
+    },
+    "S3_repvar": {
+      "azure_ionq|fair_w3_d8": {
+        "reps": 3,
+        "mean": 0.9993,
+        "between_rep_sd": 0.0012,
+        "shot_sd": 0.0008
+      },
+      "braket_rigetti|fair_w3_d8": {
+        "reps": 2,
+        "mean": 0.4445,
+        "between_rep_sd": 0.0205,
+        "shot_sd": 0.0157
+      },
+      "braket_rigetti|fair_w3_d16": {
+        "reps": 2,
+        "mean": 0.2755,
+        "between_rep_sd": 0.0134,
+        "shot_sd": 0.0141
+      },
+      "braket_rigetti|fair_w3_d32": {
+        "reps": 2,
+        "mean": 0.161,
+        "between_rep_sd": 0.0042,
+        "shot_sd": 0.0116
+      },
+      "braket_rigetti|fair_w8_d8": {
+        "reps": 2,
+        "mean": 0.0645,
+        "between_rep_sd": 0.0092,
+        "shot_sd": 0.0078
+      },
+      "braket_rigetti|fair_w8_d16": {
+        "reps": 2,
+        "mean": 0.0085,
+        "between_rep_sd": 0.0049,
+        "shot_sd": 0.0029
+      },
+      "braket_rigetti|fair_w8_d32": {
+        "reps": 2,
+        "mean": 0.005,
+        "between_rep_sd": 0.0028,
+        "shot_sd": 0.0022
+      },
+      "braket_rigetti|fair_w12_d8": {
+        "reps": 2,
+        "mean": 0.003,
+        "between_rep_sd": 0.0028,
+        "shot_sd": 0.0017
+      },
+      "braket_rigetti|fair_w12_d16": {
+        "reps": 2,
+        "mean": 0.0,
+        "between_rep_sd": 0.0,
+        "shot_sd": 0.0
+      },
+      "braket_rigetti|fair_w12_d32": {
+        "reps": 2,
+        "mean": 0.0,
+        "between_rep_sd": 0.0,
+        "shot_sd": 0.0
+      },
+      "braket_rigetti|ghz_w8": {
+        "reps": 2,
+        "mean": 0.204,
+        "between_rep_sd": 0.0057,
+        "shot_sd": 0.0127
+      },
+      "ibm|fair_w3_d8": {
+        "reps": 2,
+        "mean": 0.8745,
+        "between_rep_sd": 0.0516,
+        "shot_sd": 0.0105
+      },
+      "ibm|fair_w3_d16": {
+        "reps": 2,
+        "mean": 0.7965,
+        "between_rep_sd": 0.0233,
+        "shot_sd": 0.0127
+      },
+      "ibm|fair_w3_d32": {
+        "reps": 2,
+        "mean": 0.801,
+        "between_rep_sd": 0.0057,
+        "shot_sd": 0.0126
+      },
+      "ibm|fair_w8_d8": {
+        "reps": 2,
+        "mean": 0.6315,
+        "between_rep_sd": 0.0021,
+        "shot_sd": 0.0153
+      },
+      "ibm|fair_w8_d16": {
+        "reps": 2,
+        "mean": 0.41,
+        "between_rep_sd": 0.0622,
+        "shot_sd": 0.0156
+      },
+      "ibm|fair_w8_d32": {
+        "reps": 2,
+        "mean": 0.2293,
+        "between_rep_sd": 0.0011,
+        "shot_sd": 0.0133
+      },
+      "ibm|fair_w12_d8": {
+        "reps": 2,
+        "mean": 0.4875,
+        "between_rep_sd": 0.0502,
+        "shot_sd": 0.0158
+      },
+      "ibm|fair_w12_d16": {
+        "reps": 2,
+        "mean": 0.268,
+        "between_rep_sd": 0.0255,
+        "shot_sd": 0.014
+      },
+      "ibm|fair_w12_d32": {
+        "reps": 2,
+        "mean": 0.1065,
+        "between_rep_sd": 0.0156,
+        "shot_sd": 0.0098
+      },
+      "ibm|ghz_w3": {
+        "reps": 2,
+        "mean": 0.971,
+        "between_rep_sd": 0.0085,
+        "shot_sd": 0.0053
+      },
+      "ibm|ghz_w8": {
+        "reps": 2,
+        "mean": 0.918,
+        "between_rep_sd": 0.0042,
+        "shot_sd": 0.0087
+      },
+      "ibm|ghz_w12": {
+        "reps": 2,
+        "mean": 0.813,
+        "between_rep_sd": 0.0028,
+        "shot_sd": 0.0123
+      },
+      "braket_iqm_garnet|fair_w8_d8": {
+        "reps": 2,
+        "mean": 0.3515,
+        "between_rep_sd": 0.0233,
+        "shot_sd": 0.0151
+      },
+      "braket_iqm_garnet|fair_w8_d16": {
+        "reps": 2,
+        "mean": 0.1105,
+        "between_rep_sd": 0.0007,
+        "shot_sd": 0.0099
+      },
+      "braket_iqm_garnet|fair_w8_d32": {
+        "reps": 2,
+        "mean": 0.0135,
+        "between_rep_sd": 0.0007,
+        "shot_sd": 0.0036
+      }
+    },
+    "S4_exchange_H1": {
+      "gate/volume": {
+        "n": 56,
+        "min": 0.0599,
+        "max": 13.9781,
+        "drift": 233.4,
+        "rank_reversal": true,
+        "verdict": "H1 SUPPORTED"
+      },
+      "aqt_off/volume": {
+        "n": 56,
+        "min": 0.3212,
+        "max": 12.17,
+        "drift": 37.9,
+        "rank_reversal": true,
+        "verdict": "H1 SUPPORTED"
+      },
+      "gate/time": {
+        "n": 22,
+        "min": 0.5344,
+        "max": 773.85,
+        "drift": 1448.1,
+        "rank_reversal": true,
+        "verdict": "H1 SUPPORTED"
+      },
+      "time/volume": {
+        "n": 22,
+        "min": 0.015,
+        "max": 0.3855,
+        "drift": 25.7,
+        "rank_reversal": false,
+        "verdict": "H1 SUPPORTED"
+      }
+    },
+    "S5_channel_flip_H2": {
+      "ionq_azure/braket": {
+        "measured_points": [
+          {
+            "circuit": "fair_w3_d8",
+            "shots": 1000,
+            "azure_billed_usd": 168.36,
+            "billing_detail": {
+              "amount_billed_tokens": 168.2,
+              "unit_price": 0.78201,
+              "currency": "GBP",
+              "native_total": 131.5341,
+              "gbp_usd_rate": 1.28,
+              "usd": 168.3636
+            },
+            "inferred_state": "mitigation_on(platform_default)",
+            "gate_formula_usd": 41.62,
+            "azure_analytic_usd": 168.19,
+            "reconciliation": 1.001,
+            "floor_binding": true,
+            "braket_volume_usd": 80.3,
+            "ratio_azure_over_braket": 2.097
+          },
+          {
+            "circuit": "fair_w3_d8",
+            "shots": 50,
+            "azure_billed_usd": 25.82,
+            "billing_detail": {
+              "amount_billed_tokens": 25.79,
+              "unit_price": 0.78201,
+              "currency": "GBP",
+              "native_total": 20.168,
+              "gbp_usd_rate": 1.28,
+              "usd": 25.8151
+            },
+            "inferred_state": "mitigation_off",
+            "gate_formula_usd": 2.08,
+            "azure_analytic_usd": 25.79,
+            "reconciliation": 1.001,
+            "floor_binding": true,
+            "braket_volume_usd": 4.3,
+            "ratio_azure_over_braket": 6.004
+          }
+        ],
+        "invoice_reconciliation": {
+          "values": [
+            1.001,
+            1.001
+          ],
+          "max_abs_deviation": 0.001,
+          "note": "billed/analytic under device-specific Forte constants and the inferred mitigation state; both certified invoices were tariff floors (min charge bound, gate formula did not)"
+        },
+        "formula_surface": {
+          "fair_w3_d8": {
+            "label": "published_formula_projection",
+            "azure_mit_off_usd": 41.62,
+            "azure_mit_on_usd": 168.19,
+            "braket_volume_usd": 80.3,
+            "ratio_off": 0.518,
+            "ratio_on": 2.095
+          },
+          "fair_w3_d16": {
+            "label": "published_formula_projection",
+            "azure_mit_off_usd": 83.25,
+            "azure_mit_on_usd": 168.19,
+            "braket_volume_usd": 80.3,
+            "ratio_off": 1.037,
+            "ratio_on": 2.095
+          },
+          "fair_w3_d32": {
+            "label": "published_formula_projection",
+            "azure_mit_off_usd": 166.5,
+            "azure_mit_on_usd": 168.19,
+            "braket_volume_usd": 80.3,
+            "ratio_off": 2.073,
+            "ratio_on": 2.095
+          },
+          "fair_w8_d8": {
+            "label": "published_formula_projection",
+            "azure_mit_off_usd": 125.94,
+            "azure_mit_on_usd": 168.19,
+            "braket_volume_usd": 80.3,
+            "ratio_off": 1.568,
+            "ratio_on": 2.095
+          },
+          "fair_w8_d16": {
+            "label": "published_formula_projection",
+            "azure_mit_off_usd": 251.89,
+            "azure_mit_on_usd": 251.89,
+            "braket_volume_usd": 80.3,
+            "ratio_off": 3.137,
+            "ratio_on": 3.137
+          },
+          "fair_w8_d32": {
+            "label": "published_formula_projection",
+            "azure_mit_off_usd": 503.78,
+            "azure_mit_on_usd": 503.78,
+            "braket_volume_usd": 80.3,
+            "ratio_off": 6.274,
+            "ratio_on": 6.274
+          },
+          "fair_w12_d8": {
+            "label": "published_formula_projection",
+            "azure_mit_off_usd": 193.4,
+            "azure_mit_on_usd": 193.4,
+            "braket_volume_usd": 80.3,
+            "ratio_off": 2.408,
+            "ratio_on": 2.408
+          },
+          "fair_w12_d16": {
+            "label": "published_formula_projection",
+            "azure_mit_off_usd": 386.8,
+            "azure_mit_on_usd": 386.8,
+            "braket_volume_usd": 80.3,
+            "ratio_off": 4.817,
+            "ratio_on": 4.817
+          },
+          "fair_w12_d32": {
+            "label": "published_formula_projection",
+            "azure_mit_off_usd": 773.6,
+            "azure_mit_on_usd": 773.6,
+            "braket_volume_usd": 80.3,
+            "ratio_off": 9.634,
+            "ratio_on": 9.634
+          }
+        },
+        "surface_ratio_range_off": [
+          0.52,
+          9.63
+        ],
+        "surface_ratio_range_on": [
+          2.1,
+          9.63
+        ],
+        "cheaper_channel_flips_mit_off": true,
+        "verdict": "H2 SUPPORTED (same machine, channel-dependent billing architecture: measured ratios [2.097, 6.004] across shot regimes; published-formula surface mit-off 0.52-9.63x, cheaper channel FLIPS inside the grid, mit-on 2.10-9.63x; invoices reconcile with the device-specific tariff to <=0.10%)"
+      }
+    },
+    "S6_qfc_H4": {
+      "table": [
+        {
+          "provider": "braket_rigetti",
+          "circuit": "fair_w3_d8",
+          "F": 0.4445,
+          "native_price": 0.725,
+          "QFC": 613.1
+        },
+        {
+          "provider": "braket_rigetti",
+          "circuit": "fair_w3_d16",
+          "F": 0.2755,
+          "native_price": 0.725,
+          "QFC": 380.0
+        },
+        {
+          "provider": "braket_rigetti",
+          "circuit": "fair_w3_d32",
+          "F": 0.161,
+          "native_price": 0.725,
+          "QFC": 222.07
+        },
+        {
+          "provider": "braket_rigetti",
+          "circuit": "fair_w8_d8",
+          "F": 0.0645,
+          "native_price": 0.725,
+          "QFC": 88.97
+        },
+        {
+          "provider": "braket_rigetti",
+          "circuit": "fair_w8_d16",
+          "F": 0.0085,
+          "native_price": 0.725,
+          "QFC": 11.72
+        },
+        {
+          "provider": "braket_rigetti",
+          "circuit": "fair_w8_d32",
+          "F": 0.005,
+          "native_price": 0.725,
+          "QFC": 6.9
+        },
+        {
+          "provider": "braket_rigetti",
+          "circuit": "fair_w12_d8",
+          "F": 0.003,
+          "native_price": 0.725,
+          "QFC": 4.14
+        },
+        {
+          "provider": "braket_rigetti",
+          "circuit": "fair_w12_d16",
+          "F": 0.0,
+          "native_price": 0.725,
+          "QFC": 0.0
+        },
+        {
+          "provider": "braket_rigetti",
+          "circuit": "fair_w12_d32",
+          "F": 0.0,
+          "native_price": 0.725,
+          "QFC": 0.0
+        },
+        {
+          "provider": "braket_rigetti",
+          "circuit": "ghz_w8",
+          "F": 0.204,
+          "native_price": 0.725,
+          "QFC": 281.38
+        },
+        {
+          "provider": "braket_ionq_forte",
+          "circuit": "fair_w8_d16",
+          "F": 0.3914,
+          "native_price": 46.7,
+          "QFC": 4.86
+        },
+        {
+          "provider": "braket_ionq_forte",
+          "circuit": "fair_w8_d32",
+          "F": 0.1552,
+          "native_price": 46.7,
+          "QFC": 1.93
+        },
+        {
+          "provider": "ibm",
+          "circuit": "fair_w3_d8",
+          "F": 0.8745,
+          "native_price": 3.2,
+          "QFC": 273.28
+        },
+        {
+          "provider": "ibm",
+          "circuit": "fair_w3_d16",
+          "F": 0.7965,
+          "native_price": 3.2,
+          "QFC": 248.91
+        },
+        {
+          "provider": "ibm",
+          "circuit": "fair_w3_d32",
+          "F": 0.801,
+          "native_price": 3.2,
+          "QFC": 250.31
+        },
+        {
+          "provider": "ibm",
+          "circuit": "fair_w8_d8",
+          "F": 0.6315,
+          "native_price": 3.2,
+          "QFC": 197.34
+        },
+        {
+          "provider": "ibm",
+          "circuit": "fair_w8_d16",
+          "F": 0.41,
+          "native_price": 3.2,
+          "QFC": 128.12
+        },
+        {
+          "provider": "ibm",
+          "circuit": "fair_w8_d32",
+          "F": 0.2293,
+          "native_price": 4.8,
+          "QFC": 191.04
+        },
+        {
+          "provider": "ibm",
+          "circuit": "fair_w12_d8",
+          "F": 0.4875,
+          "native_price": 3.2,
+          "QFC": 152.34
+        },
+        {
+          "provider": "ibm",
+          "circuit": "fair_w12_d16",
+          "F": 0.268,
+          "native_price": 3.2,
+          "QFC": 83.75
+        },
+        {
+          "provider": "ibm",
+          "circuit": "fair_w12_d32",
+          "F": 0.1065,
+          "native_price": 4.8,
+          "QFC": 88.75
+        },
+        {
+          "provider": "ibm",
+          "circuit": "ghz_w8",
+          "F": 0.918,
+          "native_price": 3.2,
+          "QFC": 286.88
+        },
+        {
+          "provider": "ibm",
+          "circuit": "ghz_w12",
+          "F": 0.813,
+          "native_price": 3.2,
+          "QFC": 254.06
+        },
+        {
+          "provider": "braket_iqm_garnet",
+          "circuit": "fair_w8_d8",
+          "F": 0.3515,
+          "native_price": 1.75,
+          "QFC": 200.86
+        },
+        {
+          "provider": "braket_iqm_garnet",
+          "circuit": "fair_w8_d16",
+          "F": 0.1105,
+          "native_price": 1.75,
+          "QFC": 63.14
+        },
+        {
+          "provider": "braket_iqm_garnet",
+          "circuit": "fair_w8_d32",
+          "F": 0.0135,
+          "native_price": 1.75,
+          "QFC": 7.71
+        }
+      ],
+      "kendall": {
+        "fair_w8_d16": {
+          "n": 4,
+          "tau": 0.333,
+          "p": 0.75
+        },
+        "fair_w8_d32": {
+          "n": 4,
+          "tau": 0.333,
+          "p": 0.75
+        },
+        "fair_w8_d8": {
+          "n": 3,
+          "tau": 0.333,
+          "p": 1.0
+        }
+      },
+      "verdict": "H4 SUPPORTED (rankings discordant)"
+    },
+    "S8_regret_H4": {
+      "always_cheapest_pershot": {
+        "mean_regret": 1.67,
+        "p95": 4.02,
+        "pct_optimal": 56.0
+      },
+      "always_ionq_braket": {
+        "mean_regret": 38.94,
+        "p95": 90.36,
+        "pct_optimal": 0.0
+      },
+      "always_time_meter": {
+        "mean_regret": 1.88,
+        "p95": 3.06,
+        "pct_optimal": 4.5
+      },
+      "providers_in_simulation": [
+        "braket_ionq_forte",
+        "braket_iqm_garnet",
+        "braket_rigetti",
+        "ibm"
+      ],
+      "verdict": "H4 SUPPORTED (no heuristic near-optimal everywhere)"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+provider,device,constant,value,unit,verification_date,source,note
+ibm,IBM Quantum pay-as-you-go,usd_per_qpu_second,1.60,USD per QPU second,August 2026 (config.yaml header: "reflect August 2026 published rates"),src/config.yaml rates.ibm; https://quantum.cloud.ibm.com/docs/en/guides/plans-overview,"$96/min pay-as-you-go"
+braket_ionq_forte,IonQ Forte via AWS Braket,usd_per_task,0.30,USD per task,August 2026 (config.yaml header),src/config.yaml rates.braket_ionq_forte; https://aws.amazon.com/braket/pricing/,
+braket_ionq_forte,IonQ Forte via AWS Braket,usd_per_shot,0.08,USD per shot,August 2026 (config.yaml header),src/config.yaml rates.braket_ionq_forte; https://aws.amazon.com/braket/pricing/,
+braket_rigetti,Rigetti Cepheus-1-108Q via AWS Braket (Ankaa-3 retired),usd_per_task,0.30,USD per task,August 2026 (config.yaml header),src/config.yaml rates.braket_rigetti; https://aws.amazon.com/braket/pricing/,
+braket_rigetti,Rigetti Cepheus-1-108Q via AWS Braket (Ankaa-3 retired),usd_per_shot,0.000425,USD per shot,2026-08-09,src/config.yaml rates.braket_rigetti; aws.amazon.com/braket/pricing,"verified 2026-08-09"
+braket_iqm_garnet,"IQM Garnet via AWS Braket, eu-north-1, weekdays only",usd_per_task,0.30,USD per task,August 2026 (config.yaml header),src/config.yaml rates.braket_iqm_garnet; https://aws.amazon.com/braket/pricing/,
+braket_iqm_garnet,"IQM Garnet via AWS Braket, eu-north-1, weekdays only",usd_per_shot,0.00145,USD per shot,2026-08-09,src/config.yaml rates.braket_iqm_garnet; aws.amazon.com/braket/pricing,"verified 2026-08-09"
+braket_iqm_emerald,"IQM Emerald via AWS Braket, eu-north-1, weekdays only",usd_per_task,0.30,USD per task,August 2026 (config.yaml header),src/config.yaml rates.braket_iqm_emerald; https://aws.amazon.com/braket/pricing/,
+braket_iqm_emerald,"IQM Emerald via AWS Braket, eu-north-1, weekdays only",usd_per_shot,0.0016,USD per shot,2026-08-09,src/config.yaml rates.braket_iqm_emerald; aws.amazon.com/braket/pricing,"verified 2026-08-09"
+ionq_direct,IonQ direct (gate-based pricing),usd_per_1q_gate_shot,0.00022,USD per 1-qubit gate-shot,August 2026 (config.yaml header),src/config.yaml rates.ionq_direct; https://ionq.com/quantum-cloud,
+ionq_direct,IonQ direct (gate-based pricing),usd_per_2q_gate_shot,0.000975,USD per 2-qubit gate-shot,August 2026 (config.yaml header),src/config.yaml rates.ionq_direct; https://ionq.com/quantum-cloud,
+ionq_direct,IonQ direct (gate-based pricing),usd_min_per_job,1.00,USD minimum per job,August 2026 (config.yaml header),src/config.yaml rates.ionq_direct; https://ionq.com/quantum-cloud,
+ibm,IBM Quantum pay-as-you-go,time_usd_per_s,1.60,USD per QPU second,not dated in file,src/thesis_analysis.py RATES,"rates duplicated from pricing/azure modules"
+braket_ionq_forte,IonQ Forte via AWS Braket (Braket premium),vol_task,0.30,USD per task,not dated in file,src/thesis_analysis.py RATES,
+braket_ionq_forte,IonQ Forte via AWS Braket (Braket premium),vol_shot,0.08,USD per shot,not dated in file,src/thesis_analysis.py RATES,
+braket_rigetti,Rigetti via AWS Braket,vol_shot_rigetti,0.000425,USD per shot,2026-08-16,src/thesis_analysis.py RATES,"verified 2026-08-16"
+braket_iqm_garnet,IQM Garnet via AWS Braket,vol_shot_iqm,0.00145,USD per shot,2026-08-16,src/thesis_analysis.py RATES,"verified 2026-08-16"
+ionq_direct,IonQ direct (gate-based pricing),gate_1q,0.00022,USD per 1-qubit gate-shot,not dated in file,src/thesis_analysis.py RATES,
+ionq_direct,IonQ direct (gate-based pricing),gate_2q,0.000975,USD per 2-qubit gate-shot,not dated in file,src/thesis_analysis.py RATES,
+ionq_direct,IonQ direct (gate-based pricing),gate_min,1.00,USD minimum per job,not dated in file,src/thesis_analysis.py RATES,
+azure_ionq,IonQ Forte via Azure Quantum (AQT gate-token meter),aqt_1q,0.0001645,USD per 1-qubit gate-shot,2026-09-01,src/thesis_analysis.py RATES; Microsoft pricing.md,"DEVICE-SPECIFIC Forte constant, verified vs Microsoft pricing.md 2026-09-01"
+azure_ionq,IonQ Forte via Azure Quantum (AQT gate-token meter),aqt_2q,0.001121,USD per 2-qubit gate-shot,2026-09-01,src/thesis_analysis.py RATES; Microsoft pricing.md,"DEVICE-SPECIFIC Forte constant, verified vs Microsoft pricing.md 2026-09-01"
+azure_ionq,IonQ Forte via Azure Quantum (AQT gate-token meter),aqt_min_off,25.7899,USD minimum charge (error mitigation off),2026-09-01,src/thesis_analysis.py RATES; Microsoft pricing.md,"phase-6 $25.81 ~= min_mit_off $25.7899 (tariff floor)"
+azure_ionq,IonQ Forte via Azure Quantum (AQT gate-token meter),aqt_min_on,168.195,USD minimum charge (error mitigation on),2026-09-01,src/thesis_analysis.py RATES; Microsoft pricing.md,"phase-4 $168.36 ~= min_mit_on $168.195 (tariff floor; job ran under platform default, mitigation ON)"
+azure_rigetti,Rigetti via Azure Quantum (time meter),azure_time_per_10ms,0.02,USD per 10 ms,not dated in file,src/thesis_analysis.py RATES,
+azure_ionq,Azure Quantum (GBP-denominated AQT token),GBP_USD,1.28,USD per GBP,2026-08-16,src/thesis_analysis.py GBP_USD (thesis_run.USD_PER_GBP),"rate used across the thesis budget, set 2026-08-16; re-verify against a dated FX source before final submission"
+azure_ionq_aria,IonQ Aria via Azure Quantum,usd_per_1q_gate_shot,0.000220,USD per 1-qubit gate-shot,2026-08-18,src/azure_runner.py AZURE_RATES; Microsoft pricing.md,"verified against Microsoft pricing.md 2026-08-18"
+azure_ionq_aria,IonQ Aria via Azure Quantum,usd_per_2q_gate_shot,0.000975,USD per 2-qubit gate-shot,2026-08-18,src/azure_runner.py AZURE_RATES; Microsoft pricing.md,"verified against Microsoft pricing.md 2026-08-18"
+azure_ionq_aria,IonQ Aria via Azure Quantum,min_mitigation_on,97.50,USD minimum charge (error mitigation on),2026-08-18,src/azure_runner.py AZURE_RATES; Microsoft pricing.md,"verified against Microsoft pricing.md 2026-08-18"
+azure_ionq_aria,IonQ Aria via Azure Quantum,min_mitigation_off,12.4166,USD minimum charge (error mitigation off),2026-08-18,src/azure_runner.py AZURE_RATES; Microsoft pricing.md,"verified against Microsoft pricing.md 2026-08-18"
+azure_ionq_forte,IonQ Forte via Azure Quantum,usd_per_1q_gate_shot,0.0001645,USD per 1-qubit gate-shot,2026-08-18,src/azure_runner.py AZURE_RATES; Microsoft pricing.md,"verified against Microsoft pricing.md 2026-08-18"
+azure_ionq_forte,IonQ Forte via Azure Quantum,usd_per_2q_gate_shot,0.001121,USD per 2-qubit gate-shot,2026-08-18,src/azure_runner.py AZURE_RATES; Microsoft pricing.md,"verified against Microsoft pricing.md 2026-08-18"
+azure_ionq_forte,IonQ Forte via Azure Quantum,min_mitigation_on,168.195,USD minimum charge (error mitigation on),2026-08-18,src/azure_runner.py AZURE_RATES; Microsoft pricing.md,"verified against Microsoft pricing.md 2026-08-18"
+azure_ionq_forte,IonQ Forte via Azure Quantum,min_mitigation_off,25.7899,USD minimum charge (error mitigation off),2026-08-18,src/azure_runner.py AZURE_RATES; Microsoft pricing.md,"verified against Microsoft pricing.md 2026-08-18"
+azure_ionq,IonQ via Azure Quantum (legacy alias = Aria constants),usd_per_1q_gate_shot,0.000220,USD per 1-qubit gate-shot,2026-08-18,src/azure_runner.py AZURE_RATES,"legacy alias (Aria constants) -- do not use for Forte"
+azure_ionq,IonQ via Azure Quantum (legacy alias = Aria constants),usd_per_2q_gate_shot,0.000975,USD per 2-qubit gate-shot,2026-08-18,src/azure_runner.py AZURE_RATES,"legacy alias (Aria constants) -- do not use for Forte"
+azure_ionq,IonQ via Azure Quantum (legacy alias = Aria constants),min_mitigation_on,97.50,USD minimum charge (error mitigation on),2026-08-18,src/azure_runner.py AZURE_RATES,"legacy alias (Aria constants) -- do not use for Forte"
+azure_ionq,IonQ via Azure Quantum (legacy alias = Aria constants),min_mitigation_off,12.4166,USD minimum charge (error mitigation off),2026-08-18,src/azure_runner.py AZURE_RATES,"legacy alias (Aria constants) -- do not use for Forte"
+azure_rigetti,Rigetti via Azure Quantum (time meter),usd_per_10ms,0.02,USD per 10 ms,"defaults Aug 2026; file says VERIFY current per-10ms rate on the Azure pricing page",src/azure_runner.py AZURE_RATES,"this default encodes $0.02 per 10 ms"

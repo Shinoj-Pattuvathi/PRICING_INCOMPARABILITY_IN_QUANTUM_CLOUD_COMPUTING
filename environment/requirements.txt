@@ -1,0 +1,15 @@
+# Pinned environment used for the thesis runs (Python 3.13.3).
+# Analysis-only reproduction (reproduce.sh: thesis_analysis_v2_revised.py,
+# make_figures.py) needs only numpy, scipy and matplotlib; the remaining
+# packages are required only to re-execute circuits on cloud hardware, which
+# costs real money and needs provider credentials.
+qiskit==2.5.1
+qiskit-ibm-runtime==0.48.0
+qiskit-braket-provider==0.21.1
+amazon-braket-sdk==1.125.0
+azure-quantum[qiskit]==3.11.0
+azure-identity==1.25.3
+numpy==2.4.6
+scipy==1.18.0
+matplotlib==3.11.1
+pyyaml==6.0.3

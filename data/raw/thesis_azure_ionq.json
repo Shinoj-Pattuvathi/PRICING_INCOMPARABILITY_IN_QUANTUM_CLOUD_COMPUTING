@@ -1,0 +1,73 @@
+[
+  {
+    "provider": "azure_ionq",
+    "azure_target": "ionq.qpu.forte-1",
+    "circuit": "fair_w3_d8",
+    "width": 3,
+    "logical_depth": 65,
+    "shots": 1000,
+    "error_mitigation": false,
+    "pre_quote_usd": null,
+    "pre_quote_note": "unavailable: 'IonQForteQirBackend' object has no attribute 'estimate_cost'",
+    "transpiled_depth": 65,
+    "depth_inflation": 1.0,
+    "transpiled_gates": {
+      "1q": 144,
+      "2q": 16
+    },
+    "wall_seconds": 523.015,
+    "success_prob": 0.997997997997998,
+    "counts": {
+      "000": 997,
+      "001": 2
+    },
+    "azure_cost_estimate": "{'currencyCode': 'GBP', 'events': [{'dimensionId': 'aqt', 'dimensionName': 'Azure Quantum Token ', 'measureUnit': 'per aqt', 'amountBilled': 168.2, 'amountConsumed': 168.2, 'unitPrice': 0.78201}], 'estimatedTotal': 131.534082}",
+    "azure_execution_time": "2026-08-16 13:36:47.895000+00:00",
+    "cost_formula_usd": 47.28,
+    "qpu_seconds": null,
+    "rep": 1,
+    "phase": 4,
+    "run_date": "2026-08-16",
+    "method_note": "PRE-BARRIER circuit (submitted 2026-08-16 14:27, before mirror-cancellation fix): fidelity 0.998 may be inflated if IonQ's compiler cancelled U-Udag; EXCLUDE from decay fits. Bill is valid and is itself a finding: billed 168.2 AQT = GBP 131.53 (~USD 168) vs $47.28 analytic submitted-gate estimate -- IonQ bills post-compilation native gate-shots, token GBP-denominated."
+  },
+  {
+    "provider": "azure_ionq",
+    "azure_target": "ionq.qpu.forte-1",
+    "circuit": "fair_w3_d8",
+    "width": 3,
+    "logical_depth": 65,
+    "shots": 50,
+    "error_mitigation": false,
+    "pre_quote_usd": null,
+    "pre_quote_note": "unavailable: 'IonQForteQirBackend' object has no attribute 'estimate_cost'",
+    "transpiled_depth": 65,
+    "depth_inflation": 1.0,
+    "transpiled_gates": {
+      "1q": 144,
+      "2q": 16
+    },
+    "wall_seconds": 646.146,
+    "success_prob": 1.0,
+    "counts": {
+      "000": 50
+    },
+    "azure_cost_estimate": "{'currencyCode': 'GBP', 'events': [{'dimensionId': 'aqt', 'dimensionName': 'Azure Quantum Token ', 'measureUnit': 'per aqt', 'amountBilled': 25.79, 'amountConsumed': 25.79, 'unitPrice': 0.78201}], 'estimatedTotal': 20.1680379}",
+    "azure_execution_time": "2026-08-17 12:35:05.904000+00:00",
+    "cost_formula_usd": 12.4166,
+    "qpu_seconds": null,
+    "rep": 1,
+    "phase": 6,
+    "run_date": "2026-08-17",
+    "billing_analysis": {
+      "billed_aqt": 25.79,
+      "billed_gbp": 20.168,
+      "billed_usd_at_1.28": 25.81,
+      "analytic_gate_usd_submitted": 2.36,
+      "analytic_gate_usd_calibrated_3.561": 8.42,
+      "floor_assumed_usd": 12.4166,
+      "floor_measured_usd": 25.81,
+      "verdict": "FLOOR CROSSED: billed flat (not gate-proportional; phase 4 at 1000 shots was exactly gate-proportional at 168.2 AQT). Measured Forte mit-off floor = 25.79 AQT (~$25.81), ~2x the documented $12.4166 -- the rate sheet's minimum-charge constant was itself wrong ex ante (knowability finding)."
+    },
+    "method_note": "Barrier stripped for Azure QIR (validator rejects barrier op); fidelity 1.0 = compiler-cancelled mirror, NOT decay-certified. Billing datum is the point of this run."
+  }
+]

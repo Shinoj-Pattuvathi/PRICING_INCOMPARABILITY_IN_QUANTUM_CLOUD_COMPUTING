@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+type: software
+title: "qcost-bench: measurement instrument and replication data for 'Pricing Incomparability in Quantum Cloud Computing'"
+version: v1.0-thesis
+date-released: 2026-09-26
+authors:
+  - family-names: Pattuvathi
+    given-names: Shinoj
+    affiliation: University of Huddersfield
+# doi: pending (Zenodo deposit to be minted after the GitHub release)
+license:
+  - MIT
+  - CC-BY-4.0
