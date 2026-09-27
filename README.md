@@ -97,7 +97,7 @@ before any paid submission. Nothing in the offline reproduction spends money.
 
 Code (`src/`, `reproduce.sh`) is released under the MIT licence
 (`LICENSE-CODE.txt`); data, figures, ledger and rate archive under CC BY 4.0
-(`LICENSE-DATA.txt`). Cite using `CITATION.cff` (DOI pending).
+(`LICENSE-DATA.txt`). Cite using `CITATION.cff`. Archived at Zenodo: this deposit https://doi.org/10.5281/zenodo.23003046 · all versions https://doi.org/10.5281/zenodo.23003045 (the examined snapshot is tag v1.0-thesis, commit 674629a).
 
 ## Not included
 
