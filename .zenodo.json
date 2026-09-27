@@ -1,0 +1,10 @@
+{
+  "title": "qcost-bench: measurement instrument and replication data for 'Pricing Incomparability in Quantum Cloud Computing'",
+  "upload_type": "software",
+  "description": "Replication package for the MSc-by-Research thesis 'Pricing Incomparability in Quantum Cloud Computing' (University of Huddersfield): measurement instrument, raw quantum-hardware execution records, certified statistics, expenditure ledger, rate archive and figures. The examined snapshot is tag v1.0-thesis (commit 674629a); this archived version additionally carries the dated rate-page captures and corrected citation metadata. See README.md for the offline reproduction guide.",
+  "creators": [
+    {"name": "Pattuvathi, Shinoj", "affiliation": "University of Huddersfield"}
+  ],
+  "license": "MIT",
+  "version": "v1.1-deposit"
+}
