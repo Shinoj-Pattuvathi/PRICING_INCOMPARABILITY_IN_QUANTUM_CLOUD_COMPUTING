@@ -1,6 +1,6 @@
 ca12b8424f5183a277c436274467d5a0aca9b8d422cd1c016d2677c4fb64ac00  ./.DS_Store
 f4f5d6ffb0347a0d511cc00f45a413694eca6e218f2e210431b1d81a485d6913  ./.gitignore
-0574785d8baab15595d9f8d20c66f2ac0541e24f03aa55b0767d9fe14e75998e  ./CITATION.cff
+dab10f3a985c82855ded8bf30ff56517d99a5b9be0e418f3e494dcc9215c9c00  ./CITATION.cff
 cbb66049e73b4025bfcf2842f20a2f27a2111617dbd121ebec9431c272aaa9fd  ./LICENSE-CODE.txt
 a82a3ce3656ad5961b9d2120593654a9cc8eedf7ef91e705964d566c47672846  ./LICENSE-DATA.txt
 24b0930ed60d0c5bf75a7dd01c937a83d0ab09f99898351960146f2ccf909f4b  ./README.md
@@ -33,6 +33,7 @@ ba6e984cfedf6dd688a1d30ce280e7a9dc445e632df6a7c8c936333f6091f2a7  ./figures/supe
 ec17f749f9bb77b6ef12980b2a2b97f3e2e323d903705c63027209bee9c84098  ./ledger/ledger.csv
 2e19cd3bdfae50437a233be35a939ec518dfa68e333ff1a8ffd05d5f0200f32a  ./ledger/ledger_reconciliation.csv
 65230fbb289dd3fadd9fc2731bedbc73138573e27e90d1862dd6cc630b502868  ./ledger/ledger_reconciliation.json
+2cf38f16fbe7b823fb6ace230e6f21e917e13231fbad6b8a7985ab2f306cc2c7  ./rate_archive/.DS_Store
 c3c0c67e3d00c1166be1b5fa61a1faa51da8071da80f7b6254cb65a3585998d4  ./rate_archive/azure_prequotes_2026-08-16.txt
 0c53b05dfca6518705f43b396e1689bc74e2be0f2efe62f4bf60626a9caed5d5  ./rate_archive/azure_targets_2026-08-16.txt
 55e7b8eecae50c18c84dbd6456edb9797c3e66f25d46c18c87a9525f5da86c69  ./rate_archive/captures/INDEX.md
