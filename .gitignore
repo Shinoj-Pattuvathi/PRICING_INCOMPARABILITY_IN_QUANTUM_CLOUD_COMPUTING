@@ -10,6 +10,7 @@ src/figures/
 .*/
 !.github/
 notes/
+*outputs/
 *handoff*
 *.local.md
 /[A-Z]*.md
