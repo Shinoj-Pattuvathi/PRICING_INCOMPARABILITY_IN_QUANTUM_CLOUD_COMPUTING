@@ -1,10 +1,10 @@
-phase,provider,channel,meter,barrier,records,tasks_billed,shots,est_usd,adjustments_usd,net_committed_usd,actual_metered_usd,actual_source,cross_check_usd,cross_check_delta_usd,cash_usd,est_note
-1,ibm,ibm,time (QPU seconds),post-barrier,24,24,36000,0.0,0.0,0.0,0.0,free_tier,,,0.0,
-1,ibm,ibm,time (QPU seconds),pre-barrier (quarantined),22,22,34000,0.0,0.0,0.0,0.0,free_tier,,,0.0,estimate carried on the 1/ibm row above
-2,braket_rigetti,braket,volume (task+shots),post-barrier,20,20,20000,30.0,0.0,30.0,14.5,recomputed,,,0.0,
-2,braket_rigetti,braket,volume (task+shots),pre-barrier (quarantined),20,20,20000,0.0,0.0,0.0,14.5,recomputed,,,0.0,estimate carried on the 2/braket_rigetti row above
-3,braket_iqm_garnet,braket,volume (task+shots),post-barrier,6,6,6000,12.8331,-1.83,11.0031,10.5,recomputed,,,0.0,
-4,azure_ionq,azure,gate-token (AQT),mixed,1,1,1000,47.28,-47.28,0.0,168.3636,invoice_payload,168.36,0.0036,0.0,
-5,braket_ionq_forte,braket,volume (task+shots),post-barrier,2,2,1160,186.8,-186.8,0.0,93.4,recomputed,,,0.0,
-6,azure_ionq,azure,gate-token (AQT),mixed,1,1,50,24.84,-24.84,0.0,25.8151,invoice_payload,25.81,0.0051,0.0,
-0,braket_all,pooled,n/a,n/a,0,0,0,0.0,-41.0,-41.0,,no_execution_records,,,0.0,pooled ledger row; metered cost attributed to the phase rows above
+phase,provider,channel,meter,barrier,records,tasks_billed,shots,est_usd,adjustments_usd,net_committed_usd,actual_metered_usd,actual_source,cross_check_usd,cross_check_delta_usd,cash_usd,cash_source,est_note
+1,ibm,ibm,time (QPU seconds),post-barrier,24,24,36000,0.0,0.0,0.0,0.0,free_tier,,,0.0,free_tier,
+1,ibm,ibm,time (QPU seconds),pre-barrier (quarantined),22,22,34000,0.0,0.0,0.0,0.0,free_tier,,,0.0,free_tier,estimate carried on the 1/ibm row above
+2,braket_rigetti,braket,volume (task+shots),post-barrier,20,20,20000,30.0,0.0,30.0,14.5,recomputed,,,0.0,aws_pool_then_card,
+2,braket_rigetti,braket,volume (task+shots),pre-barrier (quarantined),20,20,20000,0.0,0.0,0.0,14.5,recomputed,,,0.0,aws_pool_then_card,estimate carried on the 2/braket_rigetti row above
+3,braket_iqm_garnet,braket,volume (task+shots),post-barrier,6,6,6000,12.8331,-1.83,11.0031,10.5,recomputed,,,0.0,aws_pool_then_card,
+4,azure_ionq,azure,gate-token (AQT),mixed,1,1,1000,47.28,-47.28,0.0,168.3636,invoice_payload,168.36,0.0036,168.3636,invoice_G182569155,
+5,braket_ionq_forte,braket,volume (task+shots),post-barrier,2,2,1160,186.8,-186.8,0.0,93.4,recomputed,,,12.9,aws_pool_then_card,
+6,azure_ionq,azure,gate-token (AQT),mixed,1,1,50,24.84,-24.84,0.0,25.8151,invoice_payload,25.81,0.0051,25.8151,invoice_G182569155,
+0,braket_all,pooled,n/a,n/a,0,0,0,0.0,-41.0,-41.0,,no_execution_records,,,0.0,n/a,pooled ledger row; metered cost attributed to the phase rows above

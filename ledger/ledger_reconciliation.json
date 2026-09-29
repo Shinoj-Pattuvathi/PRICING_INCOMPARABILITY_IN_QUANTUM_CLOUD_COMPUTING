@@ -28,8 +28,44 @@
       "material": false
     }
   ],
-  "cash_total_usd": 0.0,
-  "cash_note": "all metered consumption absorbed by Azure and AWS promotional credit pools; see ledger credits_covered_adjustment rows",
+  "credits_recorded_vs_applied": {
+    "recorded_in_ledger_usd": {
+      "azure": -194.17,
+      "braket": -134.4
+    },
+    "credit_actually_applied_usd": {
+      "azure": 0.0,
+      "braket": 120.0
+    },
+    "note": "The two azure_ionq credits_covered_adjustment rows in ledger.csv recorded an expectation that promotional credit would absorb the gate-token bills; invoice G182569155 contradicts it (Azure Credit 0), so they are not honoured here and are retained verbatim in ledger.csv.",
+    "aws_basis": "per billing console, statement not deposited"
+  },
+  "cash_total_usd": 207.08,
+  "cash_basis_rate": {
+    "metered_usd": 327.08,
+    "credits_applied_usd": 120.0,
+    "cash_usd": 207.08,
+    "basis": "metered actuals: Braket recomputed under the archived rate card, Azure from the invoice payloads"
+  },
+  "cash_basis_estimate": {
+    "metered_usd": 328.57,
+    "credits_applied_usd": 120.0,
+    "cash_usd": 208.57,
+    "basis": "ledger.csv credits_covered_adjustment rows (estimate basis, thesis Appendix F.2)"
+  },
+  "cash_total_gbp_azure_gross": 182.04,
+  "azure_vat_gbp": 30.34,
+  "azure_invoice": {
+    "number": "G182569155",
+    "date": "2026-09-09",
+    "period": "2026-08-16..2026-08-31",
+    "gbp_net": 151.7,
+    "gbp_vat": 30.34,
+    "gbp_gross": 182.04,
+    "credit_applied_gbp": 0.0,
+    "payment": "personal card"
+  },
+  "cash_note": "Azure consumption was invoiced in full (G182569155, no credit applied) and paid personally; Braket consumption drew down the $120.00 AWS pool with the remainder charged personally. Cash figures are net of UK VAT; the Azure invoice carried \u00a330.34 VAT.",
   "rows": [
     {
       "phase": "1",
@@ -48,6 +84,7 @@
       "cross_check_usd": null,
       "cross_check_delta_usd": null,
       "cash_usd": 0.0,
+      "cash_source": "free_tier",
       "est_note": "",
       "detail": {
         "note": "IBM Open Plan; no invoice. Time-meter prices elsewhere in the analysis are counterfactual."
@@ -70,6 +107,7 @@
       "cross_check_usd": null,
       "cross_check_delta_usd": null,
       "cash_usd": 0.0,
+      "cash_source": "free_tier",
       "est_note": "estimate carried on the 1/ibm row above",
       "detail": {
         "note": "IBM Open Plan; no invoice. Time-meter prices elsewhere in the analysis are counterfactual."
@@ -92,10 +130,12 @@
       "cross_check_usd": null,
       "cross_check_delta_usd": null,
       "cash_usd": 0.0,
+      "cash_source": "aws_pool_then_card",
       "est_note": "",
       "detail": {
         "tariff": "0.3/task + 0.000425/shot",
-        "exact_ex_ante": true
+        "exact_ex_ante": true,
+        "credit_applied_usd": 14.5
       }
     },
     {
@@ -115,10 +155,12 @@
       "cross_check_usd": null,
       "cross_check_delta_usd": null,
       "cash_usd": 0.0,
+      "cash_source": "aws_pool_then_card",
       "est_note": "estimate carried on the 2/braket_rigetti row above",
       "detail": {
         "tariff": "0.3/task + 0.000425/shot",
-        "exact_ex_ante": true
+        "exact_ex_ante": true,
+        "credit_applied_usd": 14.5
       }
     },
     {
@@ -138,10 +180,12 @@
       "cross_check_usd": null,
       "cross_check_delta_usd": null,
       "cash_usd": 0.0,
+      "cash_source": "aws_pool_then_card",
       "est_note": "",
       "detail": {
         "tariff": "0.3/task + 0.00145/shot",
-        "exact_ex_ante": true
+        "exact_ex_ante": true,
+        "credit_applied_usd": 10.5
       }
     },
     {
@@ -160,7 +204,8 @@
       "actual_source": "invoice_payload",
       "cross_check_usd": 168.36,
       "cross_check_delta_usd": 0.0036,
-      "cash_usd": 0.0,
+      "cash_usd": 168.3636,
+      "cash_source": "invoice_G182569155",
       "est_note": "",
       "detail": {
         "amount_billed_tokens": 168.2,
@@ -168,7 +213,8 @@
         "currency": "GBP",
         "native_total": 131.5341,
         "gbp_usd_rate": 1.28,
-        "usd": 168.3636
+        "usd": 168.3636,
+        "credit_applied_usd": 0.0
       }
     },
     {
@@ -187,11 +233,13 @@
       "actual_source": "recomputed",
       "cross_check_usd": null,
       "cross_check_delta_usd": null,
-      "cash_usd": 0.0,
+      "cash_usd": 12.9,
+      "cash_source": "aws_pool_then_card",
       "est_note": "",
       "detail": {
         "tariff": "0.3/task + 0.08/shot",
-        "exact_ex_ante": true
+        "exact_ex_ante": true,
+        "credit_applied_usd": 80.5
       }
     },
     {
@@ -210,7 +258,8 @@
       "actual_source": "invoice_payload",
       "cross_check_usd": 25.81,
       "cross_check_delta_usd": 0.0051,
-      "cash_usd": 0.0,
+      "cash_usd": 25.8151,
+      "cash_source": "invoice_G182569155",
       "est_note": "",
       "detail": {
         "amount_billed_tokens": 25.79,
@@ -218,7 +267,8 @@
         "currency": "GBP",
         "native_total": 20.168,
         "gbp_usd_rate": 1.28,
-        "usd": 25.8151
+        "usd": 25.8151,
+        "credit_applied_usd": 0.0
       }
     },
     {
@@ -238,6 +288,7 @@
       "cross_check_usd": null,
       "cross_check_delta_usd": null,
       "cash_usd": 0.0,
+      "cash_source": "n/a",
       "est_note": "pooled ledger row; metered cost attributed to the phase rows above",
       "detail": {
         "note": "adjustment-only ledger key"
