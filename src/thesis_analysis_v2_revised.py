@@ -445,7 +445,7 @@ def s6_qfc(rows):
     for (prov, circ), rs in cells.items():
         F = float(np.mean([x["success_prob"] for x in rs]))
         r0 = rs[0]
-        # v2 CORRECTION (audit finding R-01, 2026-09-26): price each provider's
+        # v2 CORRECTION (2026-09-26): price each provider's
         # volume meter at ITS OWN archived shot rate, not the Forte rate that
         # price_all_meters uses for the counterfactual grid. No fallback: a
         # record with no native price is excluded, not silently re-metered.

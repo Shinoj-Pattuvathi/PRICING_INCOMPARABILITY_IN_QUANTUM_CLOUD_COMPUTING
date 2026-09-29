@@ -76,7 +76,7 @@ quality-for-cost ranking behind H4) priced volume-metered devices at the wrong
 device's rate: every provider's native price fell through to the Braket IonQ
 Forte shot rate used for the counterfactual grid, so Rigetti and IQM Garnet
 records were priced at $0.08/shot instead of their own archived rates.
-`src/thesis_analysis_v2_revised.py` corrects this (audit finding R-01,
+`src/thesis_analysis_v2_revised.py` corrects this (correction dated
 2026-09-26): each provider's volume meter is priced at its own archived shot
 rate, and a record with no native price is excluded rather than silently
 re-metered. Nothing outside S6 changed. Both freezes are in `data/certified/`,
@@ -103,5 +103,4 @@ Code (`src/`, `reproduce.sh`) is released under the MIT licence
 
 The thesis text and its drafts, the document-generation tooling, and the
 operational notes that carry account identifiers and credentials are not part
-of this repository. The forensic audit that fixed this file list is likewise
-held outside it.
+of this repository.
