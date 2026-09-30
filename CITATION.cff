@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software or data, please cite it as below."
 type: software
 title: "qcost-bench: measurement instrument and replication data for 'Pricing Incomparability in Quantum Cloud Computing'"
-version: v1.1-deposit
-date-released: "2026-09-26"
+version: v1.2-cash-correction
+date-released: "2026-09-30"
 authors:
   - family-names: "Pattuvathi"
     given-names: "Shinoj"
