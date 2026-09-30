@@ -103,9 +103,8 @@ before any paid submission. Nothing in the offline reproduction spends money.
 Code (`src/`, `reproduce.sh`) is released under the MIT licence
 (`LICENSE-CODE.txt`); data, figures, ledger and rate archive under CC BY 4.0
 (`LICENSE-DATA.txt`). Cite using `CITATION.cff`. Archived at Zenodo: this deposit https://doi.org/10.5281/zenodo.23003046 · all versions https://doi.org/10.5281/zenodo.23003045 (the examined snapshot is tag v1.0-thesis, commit 674629a).
-Archival version v1.2-cash-correction: TODO-DOI (to be minted as a new version
-on the same Zenodo record, concept DOI 10.5281/zenodo.23003045, once the tag is
-pushed; see `CHANGELOG.md`).
+Archival version v1.2-cash-correction: https://doi.org/10.5281/zenodo.23049201
+(all versions https://doi.org/10.5281/zenodo.23003045; see `CHANGELOG.md`).
 
 ## Not included
 
